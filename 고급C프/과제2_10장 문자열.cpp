@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int s_check(char *p, char *q);
+//char *changeArr(char str[], int n);
 int main() {
 
 
@@ -9,23 +10,18 @@ int main() {
 	//int n;
 	//gets_s(str);
 	//scanf("%d",&n);
-
-	//char newStr[21];
-	//int newIter = 0;
+	//char newstr[201];
+	//int newiter = 0;
 	//int i, j;
 	//int len = strlen(str);
 	//for (i = 0; i < len; i++) {
 	//	if ('a' <= str[i] && str[i] <= 'z') {
-	//		char a = str[i] - n;
-	//		if (a < 'a') {
-	//			a = 'z'-('a'-a)-1;
-	//		}
-	//		newStr[newIter] = a;
-	//		newIter++;
+	//		newstr[newiter] = str[i] - n;
+	//		newiter++;
 	//	}
-	//	else if ('A' <= str[i] && str[i] <= 'Z') {
-	//		newStr[newIter] = str[i] + n;
-	//		newIter++;
+	//	else if ('a' <= str[i] && str[i] <= 'z') {
+	//		newstr[newiter] = str[i] + n;
+	//		newiter++;
 	//	}
 	//	else if ('0' <= str[i] && str[i] <= '9') {
 	//		int num = str[i] - '0';
@@ -34,161 +30,166 @@ int main() {
 	//			i++;
 	//		}
 	//		for (j = 0; j < n; j++) {
-	//			newStr[newIter] = 'A' + num - 1;
-	//			newIter++;
+	//			newstr[newiter] = 'a' + num - 1;
+	//			newiter++;
 	//		}
 	//	}
 	//	else {
-	//		newStr[newIter] = ' ';
-	//		newIter++;
+	//		newstr[newiter] = ' ';
+	//		newiter++;
 	//	}
 	//}
-	//newStr[newIter] = NULL;
-	//printf("%s",newStr);
+	//newstr[newiter] = NULL;
+	//printf("%s",newstr);
 
-	char A[21], B[21], C[201];
-	int Citer=0;
-	gets_s(A);
-	gets_s(B);
-	int Alen = strlen(A);
-	int Blen = strlen(B);
-	int i,j,k;
-	if ('a' <= A[0] && A[0] <= 'z') {
-		if (A[0] < B[0]) {
-			int n = B[0] - A[0];
-			int chk;
-			for (i = 0; i < Alen; i++) {
-				if ('a' <= A[i] && A[i] <= 'z') {
-					C[Citer] = A[i] - n;
-					Citer++;
-				}
-				else if ('A' <= A[i] && A[i] <= 'Z') {
-					C[Citer] = A[i] + n;
-					Citer++;
-				}
-				else if ('0' <= A[i] && A[i] <= '9') {
-					int num = A[i] - '0';
-					if ('0' <= A[i + 1] && A[i + 1] <= '9') {
-						num = num * 10 + A[i + 1] - '0';
-						i++;
-					}
-					for (j = 0; j < n; j++) {
-						C[Citer] = 'A' + num - 1;
-						Citer++;
-					}
-				}
-				else {
-					C[Citer] = ' ';
-					Citer++;
-				}
-			}
-		}
-		else if (A[0] > B[0]) {
-			int n = A[0] - B[0];
-			int chk;
-			for (i = 0; i < Blen; i++) {
-				if ('a' <= B[i] && B[i] <= 'z') {
-					C[Citer] = B[i] - n;
-					Citer++;
-				}
-				else if ('A' <= B[i] && B[i] <= 'Z') {
-					C[Citer] = B[i] + n;
-					Citer++;
-				}
-				else if ('0' <= B[i] && B[i] <= '9') {
-					int num = B[i] - '0';
-					if ('0' <= B[i + 1] && B[i + 1] <= '9') {
-						num = num * 10 + B[i + 1] - '0';
-						i++;
-					}
-					for (j = 0; j < n; j++) {
-						C[Citer] = 'A' + num - 1;
-						Citer++;
-					}
-				}
-				else {
-					C[Citer] = ' ';
-					Citer++;
-				}
-			}
-		}
-	}
-	else if ('A' <= A[0] && A[0] <= 'Z') {
-		if (A[0] < B[0]) {
-			int n = B[0] - A[0];
-			int chk;
-			for (i = 0; i < Blen; i++) {
-				if ('a' <= B[i] && B[i] <= 'z') {
-					C[Citer] = B[i] - n;
-					Citer++;
-				}
-				else if ('A' <= B[i] && B[i] <= 'Z') {
-					C[Citer] = B[i] + n;
-					Citer++;
-				}
-				else if ('0' <= B[i] && B[i] <= '9') {
-					int num = B[i] - '0';
-					if ('0' <= B[i + 1] && B[i + 1] <= '9') {
-						num = num * 10 + B[i + 1] - '0';
-						i++;
-					}
-					for (j = 0; j < n; j++) {
-						C[Citer] = 'A' + num - 1;
-						Citer++;
-					}
-				}
-				else {
-					C[Citer] = ' ';
-					Citer++;
-				}
-			}
-		}
-		else if (A[0] > B[0]) {
-			int n = A[0] - B[0];
-			int chk;
-			for (i = 0; i < Blen; i++) {
-				if ('a' <= B[i] && B[i] <= 'z') {
-					C[Citer] = B[i] - n;
-					Citer++;
-				}
-				else if ('A' <= B[i] && B[i] <= 'Z') {
-					C[Citer] = B[i] + n;
-					Citer++;
-				}
-				else if ('0' <= B[i] && B[i] <= '9') {
-					int num = B[i] - '0';
-					if ('0' <= B[i + 1] && B[i + 1] <= '9') {
-						num = num * 10 + B[i + 1] - '0';
-						i++;
-					}
-					for (j = 0; j < n; j++) {
-						C[Citer] = 'A' + num - 1;
-						Citer++;
-					}
-				}
-				else {
-					C[Citer] = ' ';
-					Citer++;
-				}
-			}
-		}
-	}
-	else {
-		
-	}
-	
-	C[Citer]=NULL;
-	Citer++;
-	printf("A:%s\nB:%s\nC:%s\n",A,B,C);
-	if (strcmp(A, C) == 0) {
-		printf("2");
-	}
-	else if (strcmp(B, C) == 0) {
-		printf("1");
-	}
-	else {
-		printf("0");
-	}
+
+
+
+
+	//problem 1-2
+	//char A[21], B[21], C[201];
+	//int Citer=0;
+	//gets_s(A);
+	//gets_s(B);
+	//int Alen = strlen(A);
+	//int Blen = strlen(B);
+	//int i,j,k;
+	//if ('a' <= A[0] && A[0] <= 'z') {
+	//	if (A[0] < B[0]) {
+	//		int n = B[0] - A[0];
+	//		int chk;
+	//		for (i = 0; i < Blen; i++) {
+	//			if ('a' <= B[i] && B[i] <= 'z') {
+	//				C[Citer] = B[i] - n;
+	//				Citer++;
+	//			}
+	//			else if ('A' <= B[i] && B[i] <= 'Z') {
+	//				C[Citer] = B[i] + n;
+	//				Citer++;
+	//			}
+	//			else if ('0' <= B[i] && B[i] <= '9') {
+	//				int num = B[i] - '0';
+	//				if ('0' <= B[i + 1] && B[i + 1] <= '9') {
+	//					num = num * 10 + B[i + 1] - '0';
+	//					i++;
+	//				}
+	//				for (j = 0; j < n; j++) {
+	//					C[Citer] = 'A' + num - 1;
+	//					Citer++;
+	//				}
+	//			}
+	//			else {
+	//				C[Citer] = ' ';
+	//				Citer++;
+	//			}
+	//		}
+	//	}
+	//	else if (A[0] > B[0]) {
+	//		int n = A[0] - B[0];
+	//		int chk;
+	//		for (i = 0; i < Alen; i++) {
+	//			if ('a' <= A[i] && A[i] <= 'z') {
+	//				C[Citer] = A[i] - n;
+	//				Citer++;
+	//			}
+	//			else if ('A' <= A[i] && A[i] <= 'Z') {
+	//				C[Citer] = A[i] + n;
+	//				Citer++;
+	//			}
+	//			else if ('0' <= A[i] && A[i] <= '9') {
+	//				int num = A[i] - '0';
+	//				if ('0' <= A[i + 1] && A[i + 1] <= '9') {
+	//					num = num * 10 + A[i + 1] - '0';
+	//					i++;
+	//				}
+	//				for (j = 0; j < n; j++) {
+	//					C[Citer] = 'A' + num - 1;
+	//					Citer++;
+	//				}
+	//			}
+	//			else {
+	//				C[Citer] = ' ';
+	//				Citer++;
+	//			}
+	//		}
+	//	}
+	//}
+	//else if ('A' <= A[0] && A[0] <= 'Z') {
+	//	if (A[0] < B[0]) {
+	//		int n = B[0] - A[0];
+	//		int chk;
+	//		for (i = 0; i < Alen; i++) {
+	//			if ('a' <= A[i] && A[i] <= 'z') {
+	//				C[Citer] = A[i] - n;
+	//				Citer++;
+	//			}
+	//			else if ('A' <= A[i] && A[i] <= 'Z') {
+	//				C[Citer] = A[i] + n;
+	//				Citer++;
+	//			}
+	//			else if ('0' <= A[i] && A[i] <= '9') {
+	//				int num = A[i] - '0';
+	//				if ('0' <= A[i + 1] && A[i + 1] <= '9') {
+	//					num = num * 10 + A[i + 1] - '0';
+	//					i++;
+	//				}
+	//				for (j = 0; j < n; j++) {
+	//					C[Citer] = 'A' + num - 1;
+	//					Citer++;
+	//				}
+	//			}
+	//			else {
+	//				C[Citer] = ' ';
+	//				Citer++;
+	//			}
+	//		}
+	//	}
+	//	else if (A[0] > B[0]) {
+	//		int n = A[0] - B[0];
+	//		int chk;
+	//		for (i = 0; i < Blen; i++) {
+	//			if ('a' <= B[i] && B[i] <= 'z') {
+	//				C[Citer] = B[i] - n;
+	//				Citer++;
+	//			}
+	//			else if ('A' <= B[i] && B[i] <= 'Z') {
+	//				C[Citer] = B[i] + n;
+	//				Citer++;
+	//			}
+	//			else if ('0' <= B[i] && B[i] <= '9') {
+	//				int num = B[i] - '0';
+	//				if ('0' <= B[i + 1] && B[i + 1] <= '9') {
+	//					num = num * 10 + B[i + 1] - '0';
+	//					i++;
+	//				}
+	//				for (j = 0; j < n; j++) {
+	//					C[Citer] = 'A' + num - 1;
+	//					Citer++;
+	//				}
+	//			}
+	//			else {
+	//				C[Citer] = ' ';
+	//				Citer++;
+	//			}
+	//		}
+	//	}
+	//}
+	//else {
+	//	
+	//}
+	//
+	//C[Citer]=NULL;
+	//Citer++;
+	////printf("A:%s\nB:%s\nC:%s\n",A,B,C);
+	//if (strcmp(A, C) == 0) {
+	//	printf("2");
+	//}
+	//else if (strcmp(B, C) == 0) {
+	//	printf("1");
+	//}
+	//else {
+	//	printf("0");
+	//}
 
 
 
@@ -291,20 +292,22 @@ int main() {
 
 
 	//problem 4
-	//int m, k1, k2, i, j, k;
-	//scanf("%d",&m);
-	//scanf("%d %d",&k1,&k2);
-	//for (i = 0; i < m; i++) {
-	//	char str[201];
-	//	char *p, *q;
-	//	getchar();
-	//	gets_s(str);
-	//	p=str+k1-1;
-	//	q = str+k2-1;
-	//	if (s_check(p, q) != 0) {
-	//		printf("%d\n", s_check(p,q));
-	//	}
-	//}
+	int m, k1, k2, i, j, k;
+	scanf("%d",&m);
+	scanf("%d %d",&k1,&k2);
+	getchar();
+	for (i = 0; i < m; i++) {
+		char str[201];
+		char *p, *q;
+		gets_s(str);
+		p=str+k1;
+		q = str+k2;
+		if(k2>strlen(str))
+			q = str+strlen(str);
+		if (s_check(p, q) != 0) {
+			printf("%d\n", s_check(p,q));
+		}
+	}
 
 }
 
@@ -318,3 +321,38 @@ int s_check(char* p, char* q)
 	}
 	return cnt;
 }
+
+//char* changeArr(char str[], int n)
+//{
+//	int i,j;
+//	int len=strlen(str);
+//	char newStr[201];
+//	int newIter=0;
+//	for (i = 0; i < len; i++) {
+//		if ('a' <= str[i] && str[i] <= 'z') {
+//			newStr[newIter] = str[i] - n;
+//			newIter++;
+//		}
+//		else if ('A' <= str[i] && str[i] <= 'Z') {
+//			newStr[newIter] = str[i] + n;
+//			newIter++;
+//		}
+//		else if ('0' <= str[i] && str[i] <= '9') {
+//			int num = str[i] - '0';
+//			if ('0' <= str[i + 1] && str[i + 1] <= '9') {
+//				num = num * 10 + str[i + 1] - '0';
+//				i++;
+//			}
+//			for (j = 0; j < n; j++) {
+//				newStr[newIter] = 'A' + num - 1;
+//				newIter++;
+//			}
+//		}
+//		else {
+//			newStr[newIter] = ' ';
+//			newIter++;
+//		}
+//	}
+//	newStr[newIter]=NULL;
+//	return newStr;
+//}
