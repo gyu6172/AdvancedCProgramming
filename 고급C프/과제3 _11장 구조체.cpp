@@ -230,6 +230,8 @@ int main() {
 //	}
 //}
 
+//�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�
+
 //int in_hotel_info(HOTEL* p)
 //{	
 //	int hotelCnt=0;
@@ -261,7 +263,7 @@ int main() {
 //	for (iter1 = p; iter1 < p + N; iter1++) {
 //		for (iter2 = iter1; iter2 < p + N; iter2++) {
 //			if (iter1->reputation == iter2->reputation) {
-//				if (strcmp(iter1->name, iter2->name)==1) {
+//				if (strcmp(iter1->name, iter2->name)>0) {
 //					HOTEL tmp = *iter1;
 //					*iter1 = *iter2;
 //					*iter2 = tmp;
@@ -281,6 +283,8 @@ int main() {
 //		}
 //	}
 //}
+
+//�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�
 
 //void input(PARKING_INFO* p, int n)
 //{
@@ -363,7 +367,7 @@ int main() {
 //	
 //}
 
-
+//�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�
 
 void inputStudent()
 {
@@ -389,7 +393,7 @@ void sortStudent(Student arr[], int cnt)
 	}
 	for (i = 0; i < cnt; i++) {
 		for (j = i; j < cnt; j++) {
-			if (strcmp(newArr[i].name, newArr[j].name)==1) {
+			if (strcmp(newArr[i].name, newArr[j].name)>0) {
 				Student tmp = newArr[i];
 				newArr[i] = newArr[j];
 				newArr[j] = tmp;
