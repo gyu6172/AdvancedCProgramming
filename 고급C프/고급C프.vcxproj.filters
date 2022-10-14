@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1차 모의고사">
+      <UniqueIdentifier>{c2c3536d-2a17-4e67-916e-50254d315d46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -38,6 +41,21 @@
     </ClCompile>
     <ClCompile Include="과제3 _11장 구조체.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="problem 1.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="problem 2-2.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="problem 3.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="problem 4-2.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="problem 5-3.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
