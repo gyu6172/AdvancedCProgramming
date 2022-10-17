@@ -40,14 +40,14 @@ int main() {
 	//for (i = 0; i < AarrIter; i++) {
 	//	printf("%s\n",Aarr[i]);
 	//}
-	//printf("�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�\n");
+	//printf("�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�\n");
 	//for (i = 0; i < BarrIter; i++) {
 	//	printf("%s\n", Barr[i]);
 	//}
 	for (i = 0; i < AarrIter; i++) {
-		for (j = i+1; j < AarrIter; j++) {
+		for (j = i-1; j >= 0; j--) {
 			if (strcmp(Aarr[i], Aarr[j]) == 0) {
-				strcpy(Aarr[j],Barr[tmpIter++]);
+				strcpy(Aarr[i],Barr[tmpIter++]);
 			}
 		}
 	}
