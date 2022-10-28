@@ -19,8 +19,8 @@
     <Filter Include="소스 파일\1014">
       <UniqueIdentifier>{5b197803-d0c0-4c2f-bbe1-c39030dc9c0a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\인증 대비">
-      <UniqueIdentifier>{b178067a-a102-4a62-b1d2-7dc46a5e20ea}</UniqueIdentifier>
+    <Filter Include="소스 파일\중간고사">
+      <UniqueIdentifier>{405d40d5-4b3a-483c-9a12-fe2a400f6529}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -81,11 +81,26 @@
     <ClCompile Include="7주차 실습문제 - 2.cpp">
       <Filter>소스 파일\1014</Filter>
     </ClCompile>
-    <ClCompile Include="problem 1-2.cpp">
-      <Filter>소스 파일\인증 대비</Filter>
+    <ClCompile Include="midterm 1-1.cpp">
+      <Filter>소스 파일\중간고사</Filter>
     </ClCompile>
-    <ClCompile Include="problem 2.cpp">
-      <Filter>소스 파일\인증 대비</Filter>
+    <ClCompile Include="midterm 1-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="midterm 2-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="midterm 3-1.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="midterm 3-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="midterm 5-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="midterm 4-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
