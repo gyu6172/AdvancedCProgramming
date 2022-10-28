@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\중간고사">
       <UniqueIdentifier>{405d40d5-4b3a-483c-9a12-fe2a400f6529}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\PDFS">
+      <UniqueIdentifier>{200c9769-fd91-4d76-825c-bc096155d316}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -102,13 +105,19 @@
     <ClCompile Include="midterm 4-2.cpp">
       <Filter>소스 파일\중간고사</Filter>
     </ClCompile>
+    <ClCompile Include="1028.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1차 모의고사 문제지.pdf">
-      <Filter>소스 파일\1차 모의고사</Filter>
+      <Filter>소스 파일\PDFS</Filter>
     </None>
     <None Include="..\문제들\1014 - 7주차 실습문제.pdf">
-      <Filter>소스 파일\1014</Filter>
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\1028 - 9주차 실습문제.pdf">
+      <Filter>소스 파일\PDFS</Filter>
     </None>
   </ItemGroup>
 </Project>

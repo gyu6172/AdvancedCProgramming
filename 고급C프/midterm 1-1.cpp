@@ -45,7 +45,7 @@ int main() {
 		for (j = 0; j < i; j++) {
 			int iLen = strlen(divStr[i]);
 			int jLen = strlen(divStr[j]);
-			if (iLen < jLen) {
+			if (iLen > jLen) {
 				char tmpStr[201];
 				strcpy(tmpStr, divStr[i]);
 				strcpy(divStr[i], divStr[j]);
@@ -55,7 +55,7 @@ int main() {
 	}
 
 
-	for (i = 0; i < divIter; i++) {
+	for (i = divIter-1; i >= 0; i--) {
 		printf("%s\n", divStr[i]);
 	}
 
