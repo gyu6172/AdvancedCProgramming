@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\1014">
       <UniqueIdentifier>{5b197803-d0c0-4c2f-bbe1-c39030dc9c0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\인증 대비">
+      <UniqueIdentifier>{b178067a-a102-4a62-b1d2-7dc46a5e20ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -78,5 +81,19 @@
     <ClCompile Include="7주차 실습문제 - 2.cpp">
       <Filter>소스 파일\1014</Filter>
     </ClCompile>
+    <ClCompile Include="problem 1-2.cpp">
+      <Filter>소스 파일\인증 대비</Filter>
+    </ClCompile>
+    <ClCompile Include="problem 2.cpp">
+      <Filter>소스 파일\인증 대비</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\문제들\1차 모의고사 문제지.pdf">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </None>
+    <None Include="..\문제들\1014 - 7주차 실습문제.pdf">
+      <Filter>소스 파일\1014</Filter>
+    </None>
   </ItemGroup>
 </Project>
