@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\PDFS">
       <UniqueIdentifier>{200c9769-fd91-4d76-825c-bc096155d316}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2차 모의고사">
+      <UniqueIdentifier>{7c9f1e74-5de9-40db-a97f-d360e3641d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1104">
+      <UniqueIdentifier>{ee208c0f-4da8-4845-a6a7-ce243063429f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -108,6 +114,42 @@
     <ClCompile Include="1028.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="sample2 problem 1-2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="sample2 problem 2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="sample2 problem 3.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="1104problem 8.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="1104problem 9.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="1104problem 10.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="1104problem 11.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="1104problem 12.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="1104problem 13.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="10주차 실습문제 - 응용1.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="10주차 실습문제 - 응용2.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
+    <ClCompile Include="10주차 실습문제 - 응용3.cpp">
+      <Filter>소스 파일\1104</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1차 모의고사 문제지.pdf">
@@ -117,6 +159,12 @@
       <Filter>소스 파일\PDFS</Filter>
     </None>
     <None Include="..\문제들\1028 - 9주차 실습문제.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\2차 모의고사 문제지.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\1104 - 10주차 실습문제.pdf">
       <Filter>소스 파일\PDFS</Filter>
     </None>
   </ItemGroup>
