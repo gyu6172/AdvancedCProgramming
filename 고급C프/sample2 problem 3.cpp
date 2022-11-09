@@ -29,6 +29,11 @@ int main() {
 	else {
 		printf("%d",check_row(arr, m, n));
 	}
+
+	for (i = 0; i < m; i++) {
+		free(arr[i]);
+	}
+	free(arr);
 }
 
 int check_row(int** p, int m, int n)
