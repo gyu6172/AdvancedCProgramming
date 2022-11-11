@@ -6,8 +6,8 @@ int main() {
 	gets_s(A);
 	gets_s(B);
 
-	int AblankCnt=0, BblankCnt=0;
-	int i,j,k;
+	int AblankCnt = 0, BblankCnt = 0;
+	int i, j, k;
 	for (i = 0; i < strlen(A); i++) {
 		if (A[i] == ' ') {
 			AblankCnt++;
@@ -19,31 +19,30 @@ int main() {
 		}
 	}
 
-	char **Awords = (char**)malloc(sizeof(char*)*(AblankCnt+1));
-	char **Bwords = (char**)malloc(sizeof(char*)*(BblankCnt + 1));
+	char** Awords = (char**)malloc(sizeof(char*) * (AblankCnt + 1));
+	char** Bwords = (char**)malloc(sizeof(char*) * (BblankCnt + 1));
 
-	if (Awords == NULL || Bwords==NULL) {
+	if (Awords == NULL || Bwords == NULL) {
 		printf("Not Enough Memory!");
 		return -1;
 	}
 
 	char tmpStr[101];
-	int tmpIter=0;
-	int AwordsIter=0;
+	int tmpIter = 0;
+	int AwordsIter = 0;
 	for (i = 0; i < strlen(A); i++) {
 		if (A[i] == ' ') {
-			tmpStr[tmpIter++]=NULL;
-			Awords[AwordsIter] = (char*)malloc(sizeof(char)*tmpIter);
+			tmpStr[tmpIter++] = NULL;
+			Awords[AwordsIter] = (char*)malloc(sizeof(char) * tmpIter);
 			if (Awords[AwordsIter] == NULL) {
 				printf("Not Enough Memory!");
 				return -1;
 			}
-			strcpy(Awords[AwordsIter], tmpStr);
-			AwordsIter++;
-			tmpIter=0;
+			strcpy(Awords[AwordsIter++], tmpStr);
+			tmpIter = 0;
 		}
 		else {
-			tmpStr[tmpIter++]=A[i];
+			tmpStr[tmpIter++] = A[i];
 		}
 	}
 	tmpStr[tmpIter++] = NULL;
@@ -52,8 +51,7 @@ int main() {
 		printf("Not Enough Memory!");
 		return -1;
 	}
-	strcpy(Awords[AwordsIter], tmpStr);
-	AwordsIter++;
+	strcpy(Awords[AwordsIter++], tmpStr);
 	tmpIter = 0;
 
 	int BwordsIter = 0;
@@ -72,6 +70,7 @@ int main() {
 			tmpStr[tmpIter++] = B[i];
 		}
 	}
+	tmpStr[tmpIter++] = NULL;
 	Bwords[BwordsIter] = (char*)malloc(sizeof(char) * tmpIter);
 	if (Bwords[BwordsIter] == NULL) {
 		printf("Not Enough Memory!");
@@ -80,6 +79,7 @@ int main() {
 	strcpy(Bwords[BwordsIter++], tmpStr);
 	tmpIter = 0;
 
+	//printf("Aword : %d, Bword : %d\n",AwordsIter, BwordsIter);
 	//for (i = 0; i < AwordsIter; i++) {
 	//	printf("%s\n",Awords[i]);
 	//}
@@ -88,10 +88,10 @@ int main() {
 	//}
 
 	char resultStr[101][101];
-	int resultIter=0;
+	int resultIter = 0;
 
 	for (i = 0; i < AwordsIter; i++) {
-		for (j = i+1; j < AwordsIter; j++) {
+		for (j = i + 1; j < AwordsIter; j++) {
 			//AcombStr1은 Awords[i] 뒤에 Awords[j]를 붙인 것이고,
 			//AcombStr2는 Awords[j] 뒤에 Awords[i]를 붙인 것이다.
 			char AcombStr1[201], AcombStr2[201];
@@ -102,17 +102,17 @@ int main() {
 			strcat(AcombStr2, Awords[i]);
 
 			for (k = 0; k < BwordsIter; k++) {
-				if (strcmp(AcombStr1, Bwords[k]) == 0 || strcmp(AcombStr2, Bwords[k])==0) {
+				if (strcmp(AcombStr1, Bwords[k]) == 0 || strcmp(AcombStr2, Bwords[k]) == 0) {
 					strcpy(resultStr[resultIter++], Bwords[k]);
 				}
 			}
-			
+
 		}
 	}
 
 	for (i = 0; i < resultIter; i++) {
 		for (j = i; j < resultIter; j++) {
-			if (strcmp(resultStr[i], resultStr[j]) > 0) {
+			if (strlen(resultStr[i]) < strlen(resultStr[j])) {
 				char tmpStr1[101];
 				strcpy(tmpStr1, resultStr[i]);
 				strcpy(resultStr[i], resultStr[j]);
@@ -122,7 +122,25 @@ int main() {
 	}
 
 	for (i = 0; i < resultIter; i++) {
-		printf("%s\n",resultStr[i]);
+		for (j = i; j < resultIter; j++) {
+			if (strlen(resultStr[i]) == strlen(resultStr[j])) {
+				if (strcmp(resultStr[i], resultStr[j]) > 0) {
+					char tmpStr1[101];
+					strcpy(tmpStr1, resultStr[i]);
+					strcpy(resultStr[i], resultStr[j]);
+					strcpy(resultStr[j], tmpStr1);
+				}
+			}
+		}
+	}
+
+	for (i = 0; i < resultIter; i++) {
+		if (i == 0) {
+			printf("%s\n", resultStr[i]);
+		}
+		else if (strcmp(resultStr[i], resultStr[i - 1])!=0) {
+			printf("%s\n", resultStr[i]);
+		}
 	}
 
 
