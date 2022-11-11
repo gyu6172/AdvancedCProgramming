@@ -13,6 +13,8 @@ int main() {
 	scanf("%d",&n);
 	getchar();
 	Reserve *customers = (Reserve*)malloc(sizeof(Reserve)*n);
+	if(customers == NULL)
+		return -1;
 	input(customers, n);
 
 	int i,j;
@@ -27,7 +29,7 @@ int main() {
 		}
 	}
 	printf("%d",total);
-
+	free(customers);
 }
 
 void input(Reserve* p, int n)

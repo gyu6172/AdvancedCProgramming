@@ -11,11 +11,16 @@ int main() {
 	getchar();
 	String* strs = (String*)malloc(sizeof(String) * n);
 
+	if(strs==NULL)
+		return -1;
+
 	int i, j, k;
 	for (i = 0; i < n; i++) {
 		char tmp[101];
 		gets_s(tmp);
 		strs[i].str = (char*)malloc(sizeof(char) * (strlen(tmp) + 1));
+		if(strs[i].str == NULL)
+			return -1;
 		strcpy(strs[i].str, tmp);
 	}
 	for (i = 0; i < n; i++) {
@@ -40,6 +45,8 @@ int main() {
 
 	for (i = 0; i < n; i++) {
 		char **wordsArr = (char**)malloc(sizeof(char*)*(strs[i].words));
+		if(wordsArr == NULL)
+			return -1;
 		int wordsIter=0;
 		char tmp[101]="";
 		int tmpIter=0;
@@ -47,6 +54,8 @@ int main() {
 			if (strs[i].str[j] == ' ') {
 				tmp[tmpIter++] = NULL;
 				wordsArr[wordsIter] = (char*)malloc(sizeof(char)*tmpIter);
+				if(wordsArr[wordsIter] == NULL)
+					return -1;
 				strcpy(wordsArr[wordsIter++], tmp);
 				tmpIter=0;
 			}
@@ -56,6 +65,8 @@ int main() {
 		}
 		tmp[tmpIter++] = NULL;
 		wordsArr[wordsIter] = (char*)malloc(sizeof(char) * tmpIter);
+		if (wordsArr[wordsIter] == NULL)
+			return -1;
 		strcpy(wordsArr[wordsIter++], tmp);
 		tmpIter = 0;
 

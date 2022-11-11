@@ -10,12 +10,16 @@ int main() {
 	scanf("%d",&n);
 	getchar();
 	String* strs = (String*)malloc(sizeof(String)*n);
+	if(strs==NULL)
+		return -1;
 
 	int i,j;
 	for (i = 0; i < n; i++) {
 		char tmp[101];
 		gets_s(tmp);
 		strs[i].str = (char*)malloc(sizeof(char)*(strlen(tmp)+1));
+		if(strs[i].str == NULL)
+			return -1;
 		strcpy(strs[i].str, tmp);
 	}
 	for (i = 0; i < n; i++) {
