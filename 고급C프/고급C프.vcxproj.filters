@@ -31,6 +31,12 @@
     <Filter Include="소스 파일\1104">
       <UniqueIdentifier>{ee208c0f-4da8-4845-a6a7-ce243063429f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\과제4_12장 동적할당">
+      <UniqueIdentifier>{f690f150-0ebb-42de-b110-eb0cfff45dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1111">
+      <UniqueIdentifier>{4c6441d5-c39d-409c-ae67-6bcbbf9ad0a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -150,6 +156,30 @@
     <ClCompile Include="10주차 실습문제 - 응용3.cpp">
       <Filter>소스 파일\1104</Filter>
     </ClCompile>
+    <ClCompile Include="assign4_problem 1-2.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="assign4_problem 2-3.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="1111 - 응용문제1.cpp">
+      <Filter>소스 파일\1111</Filter>
+    </ClCompile>
+    <ClCompile Include="1111 - 응용문제2.cpp">
+      <Filter>소스 파일\1111</Filter>
+    </ClCompile>
+    <ClCompile Include="1111 - 응용문제3.cpp">
+      <Filter>소스 파일\1111</Filter>
+    </ClCompile>
+    <ClCompile Include="1111 - problem 1.cpp">
+      <Filter>소스 파일\1111</Filter>
+    </ClCompile>
+    <ClCompile Include="1111 - problem 2.cpp">
+      <Filter>소스 파일\1111</Filter>
+    </ClCompile>
+    <ClCompile Include="1111 - problem 3.cpp">
+      <Filter>소스 파일\1111</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1차 모의고사 문제지.pdf">
@@ -165,6 +195,12 @@
       <Filter>소스 파일\PDFS</Filter>
     </None>
     <None Include="..\문제들\1104 - 10주차 실습문제.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\과제4 - 12장 동적할당.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\카카오톡 받은 파일\1111 - 11주차 실습문제.pdf">
       <Filter>소스 파일\PDFS</Filter>
     </None>
   </ItemGroup>
