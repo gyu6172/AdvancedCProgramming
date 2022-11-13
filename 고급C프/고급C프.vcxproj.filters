@@ -159,9 +159,6 @@
     <ClCompile Include="assign4_problem 1-2.cpp">
       <Filter>소스 파일\과제4_12장 동적할당</Filter>
     </ClCompile>
-    <ClCompile Include="assign4_problem 2-3.cpp">
-      <Filter>소스 파일\과제4_12장 동적할당</Filter>
-    </ClCompile>
     <ClCompile Include="1111 - 응용문제1.cpp">
       <Filter>소스 파일\1111</Filter>
     </ClCompile>
@@ -179,6 +176,12 @@
     </ClCompile>
     <ClCompile Include="1111 - problem 3.cpp">
       <Filter>소스 파일\1111</Filter>
+    </ClCompile>
+    <ClCompile Include="assign4_problem 2-3.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="tmp.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
