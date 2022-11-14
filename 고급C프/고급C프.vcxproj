@@ -216,7 +216,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="assign4_problem 2-3.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="midterm 1-1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -275,7 +275,10 @@
     <ClCompile Include="sample2 problem 3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="tmp.cpp">
+    <ClCompile Include="sample2 problem 4-2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sample2 problem 5-2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="과제1_9장포인터.cpp">
@@ -291,11 +294,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\Documents\카카오톡 받은 파일\1111 - 11주차 실습문제.pdf" />
     <None Include="..\문제들\1014 - 7주차 실습문제.pdf" />
     <None Include="..\문제들\1028 - 9주차 실습문제.pdf" />
     <None Include="..\문제들\1104 - 10주차 실습문제.pdf" />
+    <None Include="..\문제들\1111 - 11주차 실습문제.pdf" />
     <None Include="..\문제들\1차 모의고사 문제지.pdf" />
+    <None Include="..\문제들\2차 모의고사 문제지(2).pdf" />
     <None Include="..\문제들\2차 모의고사 문제지.pdf" />
     <None Include="..\문제들\과제4 - 12장 동적할당.pdf" />
   </ItemGroup>

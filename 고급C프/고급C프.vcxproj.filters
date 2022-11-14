@@ -180,8 +180,11 @@
     <ClCompile Include="assign4_problem 2-3.cpp">
       <Filter>소스 파일\과제4_12장 동적할당</Filter>
     </ClCompile>
-    <ClCompile Include="tmp.cpp">
-      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    <ClCompile Include="sample2 problem 4-2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="sample2 problem 5-2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -203,7 +206,10 @@
     <None Include="..\문제들\과제4 - 12장 동적할당.pdf">
       <Filter>소스 파일\PDFS</Filter>
     </None>
-    <None Include="..\..\..\..\..\Documents\카카오톡 받은 파일\1111 - 11주차 실습문제.pdf">
+    <None Include="..\문제들\2차 모의고사 문제지(2).pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\1111 - 11주차 실습문제.pdf">
       <Filter>소스 파일\PDFS</Filter>
     </None>
   </ItemGroup>
