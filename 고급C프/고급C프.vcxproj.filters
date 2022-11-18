@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\1014">
       <UniqueIdentifier>{5b197803-d0c0-4c2f-bbe1-c39030dc9c0a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\중간고사">
-      <UniqueIdentifier>{405d40d5-4b3a-483c-9a12-fe2a400f6529}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\PDFS">
       <UniqueIdentifier>{200c9769-fd91-4d76-825c-bc096155d316}</UniqueIdentifier>
     </Filter>
@@ -36,6 +33,12 @@
     </Filter>
     <Filter Include="소스 파일\1111">
       <UniqueIdentifier>{4c6441d5-c39d-409c-ae67-6bcbbf9ad0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사">
+      <UniqueIdentifier>{405d40d5-4b3a-483c-9a12-fe2a400f6529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1118">
+      <UniqueIdentifier>{6973718f-8e90-483a-b827-5928c97c653a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +189,33 @@
     <ClCompile Include="sample2 problem 5-2.cpp">
       <Filter>소스 파일\2차 모의고사</Filter>
     </ClCompile>
+    <ClCompile Include="assign4_problem 3-2.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="assign4_problem 4-2.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="1118problem 1.cpp">
+      <Filter>소스 파일\1118</Filter>
+    </ClCompile>
+    <ClCompile Include="1118problem 2.cpp">
+      <Filter>소스 파일\1118</Filter>
+    </ClCompile>
+    <ClCompile Include="1118problem 3.cpp">
+      <Filter>소스 파일\1118</Filter>
+    </ClCompile>
+    <ClCompile Include="1118problem 4.cpp">
+      <Filter>소스 파일\1118</Filter>
+    </ClCompile>
+    <ClCompile Include="1118problem 5.cpp">
+      <Filter>소스 파일\1118</Filter>
+    </ClCompile>
+    <ClCompile Include="1118problem 6.cpp">
+      <Filter>소스 파일\1118</Filter>
+    </ClCompile>
+    <ClCompile Include="1118problem 7.cpp">
+      <Filter>소스 파일\1118</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1차 모의고사 문제지.pdf">
@@ -210,6 +240,12 @@
       <Filter>소스 파일\PDFS</Filter>
     </None>
     <None Include="..\문제들\1111 - 11주차 실습문제.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\과제4 - 12장 동적할당(2).pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\1118 - 12주차 실습문제.pdf">
       <Filter>소스 파일\PDFS</Filter>
     </None>
   </ItemGroup>
