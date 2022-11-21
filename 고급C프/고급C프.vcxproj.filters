@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\1118">
       <UniqueIdentifier>{6973718f-8e90-483a-b827-5928c97c653a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2차 인증 예상문제">
+      <UniqueIdentifier>{c49d84c7-bd43-4ca3-a515-5d262bb191aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -216,6 +219,24 @@
     <ClCompile Include="1118problem 7.cpp">
       <Filter>소스 파일\1118</Filter>
     </ClCompile>
+    <ClCompile Include="cert problem 1-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="cert problem 2-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="cert problem 3-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="cert problem 4-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="cert problem 4-2.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="cert problem 5-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1차 모의고사 문제지.pdf">
@@ -246,6 +267,9 @@
       <Filter>소스 파일\PDFS</Filter>
     </None>
     <None Include="..\문제들\1118 - 12주차 실습문제.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\2차 인증 예상문제.pdf">
       <Filter>소스 파일\PDFS</Filter>
     </None>
   </ItemGroup>
