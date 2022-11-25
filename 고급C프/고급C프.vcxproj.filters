@@ -46,6 +46,18 @@
     <Filter Include="소스 파일\1125">
       <UniqueIdentifier>{9492f0dd-82a6-4640-a4ca-44ceb58876c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\과제1_9장 포인터">
+      <UniqueIdentifier>{857b547f-49c2-4ad0-83f2-500961e5f8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\과제2_10장 문자열">
+      <UniqueIdentifier>{350c3e17-77ed-47d6-97b8-ac68fc99f03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\과제3_11장 구조체">
+      <UniqueIdentifier>{1d12565e-1e12-4347-9649-ceb6bb58c17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로젝트">
+      <UniqueIdentifier>{5c1e4426-075f-40f8-9d57-04ed860fc041}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -54,22 +66,13 @@
     <ClCompile Include="0916.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="과제1_9장포인터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="0923.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0930.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="과제2_10장 문자열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1007.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="과제3 _11장 구조체.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="problem 1.cpp">
@@ -260,6 +263,18 @@
     </ClCompile>
     <ClCompile Include="1125 - 실습문제2.cpp">
       <Filter>소스 파일\1125</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1_9장포인터.cpp">
+      <Filter>소스 파일\과제1_9장 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2_10장 문자열.cpp">
+      <Filter>소스 파일\과제2_10장 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3 _11장 구조체.cpp">
+      <Filter>소스 파일\과제3_11장 구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호부.cpp">
+      <Filter>소스 파일\프로젝트</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

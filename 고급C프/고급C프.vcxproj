@@ -358,6 +358,7 @@
     <ClCompile Include="과제3 _11장 구조체.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="전화번호부.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1014 - 7주차 실습문제.pdf" />
