@@ -248,6 +248,24 @@
     <ClCompile Include="1125problem 8.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1202 - problem1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1202 - problem2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1202 - problem3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1202 - problem4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1202 - problem5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1202 - problem6.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="7주차 실습문제 - 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -358,7 +376,10 @@
     <ClCompile Include="과제3 _11장 구조체.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="전화번호부.cpp" />
+    <ClCompile Include="전화번호부.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="전화번호부_동적할당.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1014 - 7주차 실습문제.pdf" />
@@ -367,6 +388,7 @@
     <None Include="..\문제들\1111 - 11주차 실습문제.pdf" />
     <None Include="..\문제들\1118 - 12주차 실습문제.pdf" />
     <None Include="..\문제들\1125 - 13주차 실습문제.pdf" />
+    <None Include="..\문제들\1202 - 14주차 실습문제.pdf" />
     <None Include="..\문제들\1차 모의고사 문제지.pdf" />
     <None Include="..\문제들\2차 모의고사 문제지(2).pdf" />
     <None Include="..\문제들\2차 모의고사 문제지.pdf" />
@@ -374,7 +396,9 @@
     <None Include="..\문제들\과제4 - 12장 동적할당(2).pdf" />
     <None Include="..\문제들\과제4 - 12장 동적할당.pdf" />
     <None Include="..\문제들\실습프로젝트 강의노트 1단계.pdf" />
+    <None Include="..\문제들\실습프로젝트 강의노트 2단계.pdf" />
     <None Include="..\문제들\실습프로젝트1단계명세서.pdf" />
+    <None Include="..\문제들\실습프로젝트2단계명세서.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

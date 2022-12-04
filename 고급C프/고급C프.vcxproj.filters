@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\프로젝트">
       <UniqueIdentifier>{5c1e4426-075f-40f8-9d57-04ed860fc041}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\1202">
+      <UniqueIdentifier>{3a47cd50-93fc-427d-b98e-6f2d53891218}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0909.cpp">
@@ -276,6 +279,27 @@
     <ClCompile Include="전화번호부.cpp">
       <Filter>소스 파일\프로젝트</Filter>
     </ClCompile>
+    <ClCompile Include="1202 - problem1.cpp">
+      <Filter>소스 파일\1202</Filter>
+    </ClCompile>
+    <ClCompile Include="1202 - problem2.cpp">
+      <Filter>소스 파일\1202</Filter>
+    </ClCompile>
+    <ClCompile Include="1202 - problem3.cpp">
+      <Filter>소스 파일\1202</Filter>
+    </ClCompile>
+    <ClCompile Include="1202 - problem4.cpp">
+      <Filter>소스 파일\1202</Filter>
+    </ClCompile>
+    <ClCompile Include="1202 - problem5.cpp">
+      <Filter>소스 파일\1202</Filter>
+    </ClCompile>
+    <ClCompile Include="1202 - problem6.cpp">
+      <Filter>소스 파일\1202</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호부_동적할당.cpp">
+      <Filter>소스 파일\프로젝트</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1차 모의고사 문제지.pdf">
@@ -318,6 +342,15 @@
       <Filter>소스 파일\PDFS</Filter>
     </None>
     <None Include="..\문제들\실습프로젝트1단계명세서.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\1202 - 14주차 실습문제.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\실습프로젝트 강의노트 2단계.pdf">
+      <Filter>소스 파일\PDFS</Filter>
+    </None>
+    <None Include="..\문제들\실습프로젝트2단계명세서.pdf">
       <Filter>소스 파일\PDFS</Filter>
     </None>
   </ItemGroup>
