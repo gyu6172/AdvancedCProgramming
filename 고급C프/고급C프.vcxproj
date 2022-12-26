@@ -379,7 +379,9 @@
     <ClCompile Include="전화번호부.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="전화번호부_동적할당.cpp" />
+    <ClCompile Include="전화번호부_동적할당.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\문제들\1014 - 7주차 실습문제.pdf" />
