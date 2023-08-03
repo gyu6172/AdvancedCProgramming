@@ -16,35 +16,17 @@
     <Filter Include="소스 파일\1차 모의고사">
       <UniqueIdentifier>{c2c3536d-2a17-4e67-916e-50254d315d46}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\1014">
-      <UniqueIdentifier>{5b197803-d0c0-4c2f-bbe1-c39030dc9c0a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\PDFS">
-      <UniqueIdentifier>{200c9769-fd91-4d76-825c-bc096155d316}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\2차 모의고사">
       <UniqueIdentifier>{7c9f1e74-5de9-40db-a97f-d360e3641d65}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\1104">
-      <UniqueIdentifier>{ee208c0f-4da8-4845-a6a7-ce243063429f}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\과제4_12장 동적할당">
       <UniqueIdentifier>{f690f150-0ebb-42de-b110-eb0cfff45dde}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\1111">
-      <UniqueIdentifier>{4c6441d5-c39d-409c-ae67-6bcbbf9ad0a2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\중간고사">
       <UniqueIdentifier>{405d40d5-4b3a-483c-9a12-fe2a400f6529}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\1118">
-      <UniqueIdentifier>{6973718f-8e90-483a-b827-5928c97c653a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\2차 인증 예상문제">
       <UniqueIdentifier>{c49d84c7-bd43-4ca3-a515-5d262bb191aa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\1125">
-      <UniqueIdentifier>{9492f0dd-82a6-4640-a4ca-44ceb58876c9}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\과제1_9장 포인터">
       <UniqueIdentifier>{857b547f-49c2-4ad0-83f2-500961e5f8ce}</UniqueIdentifier>
@@ -58,300 +40,448 @@
     <Filter Include="소스 파일\프로젝트">
       <UniqueIdentifier>{5c1e4426-075f-40f8-9d57-04ed860fc041}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\1202">
-      <UniqueIdentifier>{3a47cd50-93fc-427d-b98e-6f2d53891218}</UniqueIdentifier>
+    <Filter Include="소스 파일\9장 포인터 실습문제">
+      <UniqueIdentifier>{6905cca2-2bb3-4e30-9445-f1e429d75687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10장 문자열 실습문제">
+      <UniqueIdentifier>{fb2b878f-7de4-4852-bb3c-53ce0d39a885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11장 구조체 실습문제">
+      <UniqueIdentifier>{2d3e1cd5-92cf-4bfe-923e-a2e71cc64f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12장 동적할당 실습문제">
+      <UniqueIdentifier>{7393cd5b-470f-4c71-bb45-e279caabe6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13장 고급문법 실습문제">
+      <UniqueIdentifier>{97d0f72f-82cb-4b64-a73b-9d3e780c5f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14장 파일처리 실습문제">
+      <UniqueIdentifier>{ad35804a-d1c4-42d2-a0bb-f04f0bcb73ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\15장 분할컴파일 실습문제">
+      <UniqueIdentifier>{a62bb9eb-30bc-40b2-82f5-71d565271e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2주차 실습문제%28배열%29">
+      <UniqueIdentifier>{b2df27a3-10ca-4364-82ac-96028d21bc46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3주차 실습문제%28포인터%29">
+      <UniqueIdentifier>{7b2e0679-0a35-4fd7-aebc-16eacbe1313e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4주차 실습문제%28문자열%29">
+      <UniqueIdentifier>{5d637bd2-5523-465a-bd0d-e1de31df2d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5주차 실습문제%28구조체%29">
+      <UniqueIdentifier>{16f32ada-e961-41c0-a76a-25d22e04f09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6주차 실습문제%28구조체 응용%29">
+      <UniqueIdentifier>{b9b12316-50d6-4b39-899c-e821fea5ff7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7주차 실습문제%28구조체 응용%29">
+      <UniqueIdentifier>{6956f960-40bd-4dbe-a23f-49a883d3abcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\9주차 실습문제%28구조체&amp;동적할당%29">
+      <UniqueIdentifier>{71d0ae75-a51a-4b91-ab82-29f7eb39ccc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10주차 실습문제%28응용%29">
+      <UniqueIdentifier>{86412d0e-5a19-4e5b-9e47-68f1f575cafe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11주차 실습문제%28응용%29">
+      <UniqueIdentifier>{c81d7ea0-7356-4c12-8bf2-cd49fae51613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12주차 실습문제%28응용%29">
+      <UniqueIdentifier>{027a9ae0-7a5e-4186-b444-e9323a82af1b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0909.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0916.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0923.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0930.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1007.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 1.cpp">
-      <Filter>소스 파일\1차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 2-2.cpp">
-      <Filter>소스 파일\1차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 3.cpp">
-      <Filter>소스 파일\1차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 4-2.cpp">
-      <Filter>소스 파일\1차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 5-3.cpp">
-      <Filter>소스 파일\1차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 9.cpp">
-      <Filter>소스 파일\1014</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 10.cpp">
-      <Filter>소스 파일\1014</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 11.cpp">
-      <Filter>소스 파일\1014</Filter>
-    </ClCompile>
-    <ClCompile Include="problem 12.cpp">
-      <Filter>소스 파일\1014</Filter>
-    </ClCompile>
-    <ClCompile Include="7주차 실습문제 - 1.cpp">
-      <Filter>소스 파일\1014</Filter>
-    </ClCompile>
-    <ClCompile Include="7주차 실습문제 - 2.cpp">
-      <Filter>소스 파일\1014</Filter>
-    </ClCompile>
-    <ClCompile Include="midterm 1-1.cpp">
-      <Filter>소스 파일\중간고사</Filter>
-    </ClCompile>
-    <ClCompile Include="midterm 1-2.cpp">
-      <Filter>소스 파일\중간고사</Filter>
-    </ClCompile>
-    <ClCompile Include="midterm 2-2.cpp">
-      <Filter>소스 파일\중간고사</Filter>
-    </ClCompile>
-    <ClCompile Include="midterm 3-1.cpp">
-      <Filter>소스 파일\중간고사</Filter>
-    </ClCompile>
-    <ClCompile Include="midterm 3-2.cpp">
-      <Filter>소스 파일\중간고사</Filter>
-    </ClCompile>
-    <ClCompile Include="midterm 5-2.cpp">
-      <Filter>소스 파일\중간고사</Filter>
-    </ClCompile>
-    <ClCompile Include="midterm 4-2.cpp">
-      <Filter>소스 파일\중간고사</Filter>
-    </ClCompile>
-    <ClCompile Include="1028.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="sample2 problem 1-2.cpp">
-      <Filter>소스 파일\2차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="sample2 problem 2.cpp">
-      <Filter>소스 파일\2차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="sample2 problem 3.cpp">
-      <Filter>소스 파일\2차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="1104problem 8.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="1104problem 9.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="1104problem 10.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="1104problem 11.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="1104problem 12.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="1104problem 13.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="10주차 실습문제 - 응용1.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="10주차 실습문제 - 응용2.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="10주차 실습문제 - 응용3.cpp">
-      <Filter>소스 파일\1104</Filter>
-    </ClCompile>
-    <ClCompile Include="assign4_problem 1-2.cpp">
-      <Filter>소스 파일\과제4_12장 동적할당</Filter>
-    </ClCompile>
-    <ClCompile Include="1111 - 응용문제1.cpp">
-      <Filter>소스 파일\1111</Filter>
-    </ClCompile>
-    <ClCompile Include="1111 - 응용문제2.cpp">
-      <Filter>소스 파일\1111</Filter>
-    </ClCompile>
-    <ClCompile Include="1111 - 응용문제3.cpp">
-      <Filter>소스 파일\1111</Filter>
-    </ClCompile>
-    <ClCompile Include="1111 - problem 1.cpp">
-      <Filter>소스 파일\1111</Filter>
-    </ClCompile>
-    <ClCompile Include="1111 - problem 2.cpp">
-      <Filter>소스 파일\1111</Filter>
-    </ClCompile>
-    <ClCompile Include="1111 - problem 3.cpp">
-      <Filter>소스 파일\1111</Filter>
-    </ClCompile>
-    <ClCompile Include="assign4_problem 2-3.cpp">
-      <Filter>소스 파일\과제4_12장 동적할당</Filter>
-    </ClCompile>
-    <ClCompile Include="sample2 problem 4-2.cpp">
-      <Filter>소스 파일\2차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="sample2 problem 5-2.cpp">
-      <Filter>소스 파일\2차 모의고사</Filter>
-    </ClCompile>
-    <ClCompile Include="assign4_problem 3-2.cpp">
-      <Filter>소스 파일\과제4_12장 동적할당</Filter>
-    </ClCompile>
-    <ClCompile Include="assign4_problem 4-2.cpp">
-      <Filter>소스 파일\과제4_12장 동적할당</Filter>
-    </ClCompile>
-    <ClCompile Include="1118problem 1.cpp">
-      <Filter>소스 파일\1118</Filter>
-    </ClCompile>
-    <ClCompile Include="1118problem 2.cpp">
-      <Filter>소스 파일\1118</Filter>
-    </ClCompile>
-    <ClCompile Include="1118problem 3.cpp">
-      <Filter>소스 파일\1118</Filter>
-    </ClCompile>
-    <ClCompile Include="1118problem 4.cpp">
-      <Filter>소스 파일\1118</Filter>
-    </ClCompile>
-    <ClCompile Include="1118problem 5.cpp">
-      <Filter>소스 파일\1118</Filter>
-    </ClCompile>
-    <ClCompile Include="1118problem 6.cpp">
-      <Filter>소스 파일\1118</Filter>
-    </ClCompile>
-    <ClCompile Include="1118problem 7.cpp">
-      <Filter>소스 파일\1118</Filter>
-    </ClCompile>
-    <ClCompile Include="cert problem 1-1.cpp">
-      <Filter>소스 파일\2차 인증 예상문제</Filter>
-    </ClCompile>
-    <ClCompile Include="cert problem 2-1.cpp">
-      <Filter>소스 파일\2차 인증 예상문제</Filter>
-    </ClCompile>
-    <ClCompile Include="cert problem 3-1.cpp">
-      <Filter>소스 파일\2차 인증 예상문제</Filter>
-    </ClCompile>
-    <ClCompile Include="cert problem 4-1.cpp">
-      <Filter>소스 파일\2차 인증 예상문제</Filter>
-    </ClCompile>
-    <ClCompile Include="cert problem 4-2.cpp">
-      <Filter>소스 파일\2차 인증 예상문제</Filter>
-    </ClCompile>
-    <ClCompile Include="cert problem 5-1.cpp">
-      <Filter>소스 파일\2차 인증 예상문제</Filter>
-    </ClCompile>
-    <ClCompile Include="1125problem 4.cpp">
-      <Filter>소스 파일\1125</Filter>
-    </ClCompile>
-    <ClCompile Include="1125problem 5.cpp">
-      <Filter>소스 파일\1125</Filter>
-    </ClCompile>
-    <ClCompile Include="1125problem 6.cpp">
-      <Filter>소스 파일\1125</Filter>
-    </ClCompile>
-    <ClCompile Include="1125problem 7.cpp">
-      <Filter>소스 파일\1125</Filter>
-    </ClCompile>
-    <ClCompile Include="1125problem 8.cpp">
-      <Filter>소스 파일\1125</Filter>
-    </ClCompile>
-    <ClCompile Include="1125 - 실습문제1.cpp">
-      <Filter>소스 파일\1125</Filter>
-    </ClCompile>
-    <ClCompile Include="1125 - 실습문제2.cpp">
-      <Filter>소스 파일\1125</Filter>
-    </ClCompile>
-    <ClCompile Include="과제1_9장포인터.cpp">
-      <Filter>소스 파일\과제1_9장 포인터</Filter>
-    </ClCompile>
-    <ClCompile Include="과제2_10장 문자열.cpp">
-      <Filter>소스 파일\과제2_10장 문자열</Filter>
-    </ClCompile>
-    <ClCompile Include="과제3 _11장 구조체.cpp">
-      <Filter>소스 파일\과제3_11장 구조체</Filter>
-    </ClCompile>
     <ClCompile Include="전화번호부.cpp">
       <Filter>소스 파일\프로젝트</Filter>
     </ClCompile>
-    <ClCompile Include="1202 - problem1.cpp">
-      <Filter>소스 파일\1202</Filter>
+    <ClCompile Include="10String-3.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
     </ClCompile>
-    <ClCompile Include="1202 - problem2.cpp">
-      <Filter>소스 파일\1202</Filter>
+    <ClCompile Include="10String-4.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
     </ClCompile>
-    <ClCompile Include="1202 - problem3.cpp">
-      <Filter>소스 파일\1202</Filter>
+    <ClCompile Include="10String-5.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
     </ClCompile>
-    <ClCompile Include="1202 - problem4.cpp">
-      <Filter>소스 파일\1202</Filter>
+    <ClCompile Include="10String-6.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
     </ClCompile>
-    <ClCompile Include="1202 - problem5.cpp">
-      <Filter>소스 파일\1202</Filter>
+    <ClCompile Include="10String-7.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
     </ClCompile>
-    <ClCompile Include="1202 - problem6.cpp">
-      <Filter>소스 파일\1202</Filter>
+    <ClCompile Include="10String-8.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
     </ClCompile>
-    <ClCompile Include="전화번호부_동적할당.cpp">
+    <ClCompile Include="10String-9.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10String-10.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10String-11.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10String-12.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-1.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-2.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-3.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-4.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-5.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-6.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-7.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-8.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-9.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-10.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-11.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11Structure-12.cpp">
+      <Filter>소스 파일\11장 구조체 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-1.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-2.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-3.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-4.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-5.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-6.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-7.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-8.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-9.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-10.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-11.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-12.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12DynamicAllocation-13.cpp">
+      <Filter>소스 파일\12장 동적할당 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10주차-1.cpp">
+      <Filter>소스 파일\10주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10주차-2.cpp">
+      <Filter>소스 파일\10주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10주차-3.cpp">
+      <Filter>소스 파일\10주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="11주차-1.cpp">
+      <Filter>소스 파일\11주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="11주차-2.cpp">
+      <Filter>소스 파일\11주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="11주차-3.cpp">
+      <Filter>소스 파일\11주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12주차-1.cpp">
+      <Filter>소스 파일\12주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12주차-2.cpp">
+      <Filter>소스 파일\12주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12주차-3.cpp">
+      <Filter>소스 파일\12주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12주차-4.cpp">
+      <Filter>소스 파일\12주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12주차-5.cpp">
+      <Filter>소스 파일\12주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12주차-6.cpp">
+      <Filter>소스 파일\12주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12주차-7.cpp">
+      <Filter>소스 파일\12주차 실습문제%28응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-1.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-2.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-3.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-4.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-5.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-6.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-7.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13Advanced-8.cpp">
+      <Filter>소스 파일\13장 고급문법 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14File-1.cpp">
+      <Filter>소스 파일\14장 파일처리 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14File-2.cpp">
+      <Filter>소스 파일\14장 파일처리 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15분할컴파일-1.cpp">
+      <Filter>소스 파일\15장 분할컴파일 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15분할컴파일-2.cpp">
+      <Filter>소스 파일\15장 분할컴파일 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15분할컴파일-3.cpp">
+      <Filter>소스 파일\15장 분할컴파일 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15분할컴파일-4.cpp">
+      <Filter>소스 파일\15장 분할컴파일 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15분할컴파일-5.cpp">
+      <Filter>소스 파일\15장 분할컴파일 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15분할컴파일-6.cpp">
+      <Filter>소스 파일\15장 분할컴파일 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1차모고 2-2.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="1차모고 1.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="1차모고 3.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="1차모고 4-2.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="1차모고 5-3.cpp">
+      <Filter>소스 파일\1차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="2차모고 1-2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="2차모고 2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="2차모고 3.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="2차모고 4-2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="2차모고 5-2.cpp">
+      <Filter>소스 파일\2차 모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="2차인증예상 1-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2차인증예상 2-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2차인증예상 3-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2차인증예상 4-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2차인증예상 4-2.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2차인증예상 5-1.cpp">
+      <Filter>소스 파일\2차 인증 예상문제</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 1-1.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 1-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 2-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 3-1.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 3-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 4-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 5-2.cpp">
+      <Filter>소스 파일\중간고사</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호부%28동적할당%29.cpp">
       <Filter>소스 파일\프로젝트</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\문제들\1차 모의고사 문제지.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\1014 - 7주차 실습문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\1028 - 9주차 실습문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\2차 모의고사 문제지.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\1104 - 10주차 실습문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\과제4 - 12장 동적할당.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\2차 모의고사 문제지(2).pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\1111 - 11주차 실습문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\과제4 - 12장 동적할당(2).pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\1118 - 12주차 실습문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\2차 인증 예상문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\1125 - 13주차 실습문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\실습프로젝트 강의노트 1단계.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\실습프로젝트1단계명세서.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\1202 - 14주차 실습문제.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\실습프로젝트 강의노트 2단계.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
-    <None Include="..\문제들\실습프로젝트2단계명세서.pdf">
-      <Filter>소스 파일\PDFS</Filter>
-    </None>
+    <ClCompile Include="09Pointer-7.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-8.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-9.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-10.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-11.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-12.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-13.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-14.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09Pointer-15.cpp">
+      <Filter>소스 파일\9장 포인터 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10String-1.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10String-2.cpp">
+      <Filter>소스 파일\10장 문자열 실습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1 포인터 문제1-2.cpp">
+      <Filter>소스 파일\과제1_9장 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1 포인터 문제2-2.cpp">
+      <Filter>소스 파일\과제1_9장 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1 포인터 문제3.cpp">
+      <Filter>소스 파일\과제1_9장 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1 포인터 문제4-2.cpp">
+      <Filter>소스 파일\과제1_9장 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1 포인터 문제5.cpp">
+      <Filter>소스 파일\과제1_9장 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2 문자열 문제1-1.cpp">
+      <Filter>소스 파일\과제2_10장 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2 문자열 문제1-2.cpp">
+      <Filter>소스 파일\과제2_10장 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2 문자열 문제2-2.cpp">
+      <Filter>소스 파일\과제2_10장 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2 문자열 문제3-2.cpp">
+      <Filter>소스 파일\과제2_10장 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2 문자열 문제4.cpp">
+      <Filter>소스 파일\과제2_10장 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3 구조체 문제1-2.cpp">
+      <Filter>소스 파일\과제3_11장 구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3 구조체 문제2-2.cpp">
+      <Filter>소스 파일\과제3_11장 구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3 구조체 문제3-2.cpp">
+      <Filter>소스 파일\과제3_11장 구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3 구조체 문제4.cpp">
+      <Filter>소스 파일\과제3_11장 구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3 구조체 문제5.cpp">
+      <Filter>소스 파일\과제3_11장 구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="과제4 동적할당 문제1-2.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="과제4 동적할당 문제2-3.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="과제4 동적할당 문제3-2.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="과제4 동적할당 문제4-2.cpp">
+      <Filter>소스 파일\과제4_12장 동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="02주차-2.cpp">
+      <Filter>소스 파일\2주차 실습문제%28배열%29</Filter>
+    </ClCompile>
+    <ClCompile Include="02주차-1.cpp">
+      <Filter>소스 파일\2주차 실습문제%28배열%29</Filter>
+    </ClCompile>
+    <ClCompile Include="03주차-1.cpp">
+      <Filter>소스 파일\3주차 실습문제%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="04주차-1.cpp">
+      <Filter>소스 파일\4주차 실습문제%28문자열%29</Filter>
+    </ClCompile>
+    <ClCompile Include="04주차-2.cpp">
+      <Filter>소스 파일\4주차 실습문제%28문자열%29</Filter>
+    </ClCompile>
+    <ClCompile Include="05주차-1.cpp">
+      <Filter>소스 파일\5주차 실습문제%28구조체%29</Filter>
+    </ClCompile>
+    <ClCompile Include="05주차-2.cpp">
+      <Filter>소스 파일\5주차 실습문제%28구조체%29</Filter>
+    </ClCompile>
+    <ClCompile Include="06주차-1.cpp">
+      <Filter>소스 파일\6주차 실습문제%28구조체 응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="07주차-1.cpp">
+      <Filter>소스 파일\7주차 실습문제%28구조체 응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="07주차-2.cpp">
+      <Filter>소스 파일\7주차 실습문제%28구조체 응용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="09주차-1.cpp">
+      <Filter>소스 파일\9주차 실습문제%28구조체&amp;동적할당%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
